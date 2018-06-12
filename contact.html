@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Farnia</title>
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Pacifico" rel="stylesheet">
+<link rel="stylesheet" href="styles/styles.css">
+<script src="./scripts/menu.js"></script>
+<script src="./scripts/scriptcontact.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <!-- <a class="logo" href="#0"><img src="./images/farina.jpg" alt="Logo"></a>	 -->
+        <h1><a href="#0">Farnia Jewelry</a></h1>
+        <!-- social media icons start -->
+        <div id="socialmedia-icons-header">
+            <a href="">
+                <img width="30" alt="Twitter" border="0" src="./images/my-icons-collection/svg/004-social-media-1.svg">
+            </a>
+            <a href="https://www.instagram.com/kakavand.fariba">
+                <img width="30" alt="Instagram" border="0" src="./images/my-icons-collection/svg/002-social-media-2.svg">
+            </a>
+            <a href="">
+                <img width="30" alt="Linkedin" border="0" src="./images/my-icons-collection/svg/001-social-media-3.svg">
+            </a>
+            <a href="https://www.facebook.com/fariba.kakavand.1">
+                <img width="30" alt="Facebook" border="0" src="./images/my-icons-collection/svg/005-social-media.svg">
+            </a>
+            <a href="">
+                <img width="30" alt="Youtube" border="0" src="./images/my-icons-collection/svg/003-youtube.svg">
+            </a>
+        </div>           
+    <!-- social media icons end -->
+        <button class="hamburger-menu">
+            <span class="hamburger-menu-content" tabindex="-1">
+                <span class="sr-only">Menu</span>
+                <span class="bar"></span>
+            </span><!-- end hamburger-menu-content -->
+        </button> 
+    </header>
+  <nav class="main-nav">
+    <ul>
+        <li>
+            <a href="./index.html">Home</a>
+        </li>
+        <li>
+            <a href="./rings.html">Rings</a>
+        </li>
+        <li>
+            <a href="./bracelets.html">Bracelets</a>
+        </li>
+        <li>
+            <a href="./necklaces.html">Necklaces</a>
+        </li>
+        <li>
+            <a href="./contact.html">Who We Are?</a>
+        </li>
+    </ul>
+  </nav>
+
+  <main>
+        <!-- <div class="banner">
+            <img src="./images/farnia-products/church-of-the-king-635797-unsplash.jpg" alt="Farnia">
+        </div> -->
+
+    <div class="banner"><!-- start of may story -->
+        <article>
+                <!-- <h2><a href="./about.html">Our Story</a></h2>    -->
+                <aside>
+                    <picture class="featured-pic">
+                          <a href="./about.html">
+                        <source srcset="images/farnia-products/image-fariba-cropped.jpg" media="(max-width: 600px)">
+                        <img src="images/farnia-products/image-fariba-cropped.jpg" alt="Fariba Photo">
+                           </a>
+                      </picture>
+                </aside>
+          
+                <p><time datetime="2018-04-04"><b>Apr 04, 2018</b></time>-
+                    Farnia Jewelry, a family business established in Vancouver in 2018 by
+                    Fariba Kakavand, is one of the youngest standing jewellers in British Columbia.
+                    Our business has been proudly built on our family values of unwavering commitment
+                    to quality, innovation, and most importantly, unparalleled customer service.
+                    Our mission is to exceed your expectations each and every time while
+                    consistently offering exceptional value.
+                      We continue to lead the industry
+                    by providing unequalled service and selection, along with the most
+                    technologically advanced environment in the jewellery industry.               
+                </p>
+            </article>
+        
+    </div><!-- end of my story -->
+
+    <section > 
+            
+        <article id="mycontact-form" class="contact-form">
+            <!-- <h2><a href="./products.html">Gallery</a></h2>  -->
+            <section>
+                    <fieldset >
+                    <legend>SignUp for special offer</legend>
+    
+                <form action="" method="" id="form01">
+                        <!-- <fieldset> -->
+                            <h2><span class="span">1</span>Your basic info</h2>                                             
+    
+                          <div id="info">               
+                            <div id="firstname" class="form-align-top">
+                                <label for="cname" ><span class="spanLable">*</span>First name:</label>
+                                <input type="text" name="cname" id="cname" title="Enter your first name" required/>
+                            </div>
+
+                            <div id="lastname" class="form-align-top">
+                                <label for="clname">Last name:</label>
+                                <input type="text" name="clname" id="clname" title="Enter your last name" />
+                            </div>
+                              
+                              <!-- Email -->
+                            <div id="email" class="form-align-top">
+                                <label for="email" ><span class="spanLable">*</span>Email:</label>
+                                <input type="email" name="email" id="email" required/>
+                            </div><br>
+                              
+                          <!-- Age -->                
+                          <div id="age" class="inputs-age">
+                                <label><b>Age:</b></label><br>                             
+                              <input type="radio" id="under25" name="age" value="25" checked>
+                              <label for="under25">Under 25</label>
+                              <br>                
+                              <input type="radio" id="between" value="25-50" name="age">
+                              <label for="between">Between 25 and 50</label>
+                              <br>  
+                              <input type="radio" id="over50" value="50" name="age">
+                              <label for="over50">50 or older</label>              
+                          </div><!-- end age -->
+                
+                         <div id="inputs-jtype" class="inputs-jtype">
+                          <h2><span class="span">2</span>Your interest</h2>
+                                
+                          <label for="jtype"><b>Jewellery type:</b> </label>
+                          <br>
+                          <!-- <select id="job" name="city" size="6" multiple> -->
+                          <select id="jtype" name="jtype">
+                              <optgroup label="Necklace">
+                                  <option>Collar</option>
+                                  <option>Choker</option>
+                                  <option>Princess</option>
+                                  <option>Matinee</option>
+                                  <option>Opera</option>
+                                  <option>Lariat</option>
+                              </optgroup>
+                              <optgroup label="Bracelets">
+                                  <option>Versace</option>
+                                  <option>Diamond</option>
+                                  <option>Petite Byzantie</option>
+                              </optgroup>
+                              <optgroup label="Earing">
+                                  <option>Beaded Oval Hoop</option>
+                                  <option>Single Cuff</option>
+                              </optgroup>  
+                              <optgroup label="Ring">
+                                  <option>BIRTHSTONE RING</option>
+                                  <option>BRIDAL SET</option>
+                                  <option>CLADDAGH RING</option>
+                                  <option>CLUSTER RING</option>
+                              </optgroup>
+                          </select>
+                        </div><br>
+                              
+                          <div id="kind-of-metal" class="inputs-interest">
+                              <label><b>Kind of metal:</b></label><br>
+                              <input type="checkbox" id="Gold" value="Gold" name="interest[]">
+                              <label for="Gold">Gold</label>
+                              <br>
+                
+                              <input type="checkbox" id="Silver" value="Silver" name="interest[]">
+                              <label for="Silver">Silver</label>
+                              <br>
+                
+                              <input type="checkbox" id="Titanium" value="Titanium" name="interest[]">
+                              <label for="Titanium">Titanium</label>
+                              <br>                
+                          </div><!-- end toppings -->
+                          <br>
+                                                      
+                          <!-- Controls -->
+                          <div class="controls">
+                            <input id="submit" name="submit" type="submit" value="Sign Up" />
+                          </div>
+                        </fieldset>
+                        <!-- </fieldset> -->
+                      </form>
+                
+            </section><!-- end section-col-01 -->
+          </article>
+          <article id="mycontact-right">
+              <article id="myvideo">
+                <div id="homepage-hero-module" class="homepage-hero-module">
+                    <video autoplay playsinline muted loop>
+                        <!-- <source src="media/Flower_Ceiling/Flower_Ceiling.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
+                        <source src="media/Agua-natural/Mp4/Agua-natural.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                    </video>     
+                    <h1 class="site-title">
+                            Thank you for visiting our web-site.
+                            FARNIA has been established recently and our
+                            full range, including rings, earings, necklaces
+                            and bracelets can be viewed on our web site. 
+                    </h1>
+                </div>
+
+                <div id="welcome">
+                    <p>Dear customer,</p>
+                    <p id="greeting"></p>
+                </div> 
+                 
+                <!-- <div id="map" style="width:300px;height:120px">
+                    <script>
+                            function myMap() {
+                                var mapOptions = {
+                                    center: new google.maps.LatLng(49.2821408, -122.9813007),
+                                    zoom: 17,
+                                    mapTypeId: google.maps.MapTypeId.HYBRID
+                                }
+                            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                            }
+                    </script>
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI8zTw4aWeOVNo3S1zuwvooVVH4HEtICc&callback=myMap"></script> -->
+              </article>
+        
+              <article>
+                <!-- <h2><a href="./contact.html">Latest News</a></h2> -->
+                <!-- <h2>Latest News</h2> -->
+                
+                <article>
+                    <div id="tablediv">
+                        <table border="1px">
+                                <thead>
+                                    <tr>
+                                        <th colspan="3">Store Working Hours</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="left">Days</th>
+                                        <th>Openning time</th>
+                                        <th>Closing time</th>
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                <tr>
+                                    <th class="left" colspan="3">
+                                        Free parking is available
+                                    </th>
+                                    
+                                </tr>
+                                </tfoot>
+                                <tbody>
+                                <tr>
+                                    <td class="left">Monday</td>
+                                    <td>10 AM</td>
+                                    <td>06 PM</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Tuseday</td>
+                                    <td>10 AM</td>
+                                    <td>06 PM</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Wedensday</td>
+                                    <td>10 AM</td>
+                                    <td>06 PM</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Thursday</td>
+                                    <td>10 AM</td>
+                                    <td>06 PM</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Friday</td>
+                                    <td>10 AM</td>
+                                    <td>06 PM</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Saturday</td>
+                                    <td>09 AM</td>
+                                    <td>06 PM</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Sunday</td>
+                                    <td>10 AM</td>
+                                    <td>04 PM</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                </article>
+                <article>
+
+                    <div id="addressdiv">
+                        <h2>Contact:</h2>
+                        <h3><strong>Phone:</strong> (604)657-1081</h3>
+                        <h3><strong>email:</strong> info@farnia.com</h3>
+                        <h3><strong>Address:</strong></h3>                   
+                        <h4 class="storeAddress">281 Holdom Ave.</h4>
+                        <h4 class="storeAddress">Burnaby, BC</h4>
+                        <h4 class="storeAddress">V5B 3T9</h4>
+                        <h4 class="storeAddress">Canada</h4>
+                    </div>
+
+
+                    <!-- <div id="map" style="width:300px;height:120px">
+                        <script>
+                                function myMap() {
+                                    var mapOptions = {
+                                        center: new google.maps.LatLng(49.2821408, -122.9813007),
+                                        zoom: 17,
+                                        mapTypeId: google.maps.MapTypeId.HYBRID
+                                    }
+                                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                                }
+                        </script>
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI8zTw4aWeOVNo3S1zuwvooVVH4HEtICc&callback=myMap"></script> -->
+                </article>
+                
+                
+              </article>
+          </article>
+    </section>
+
+    
+  </main>
+  <footer>
+        <div>
+            <p>&copy; 2018 Abbas Ahmadi</p>
+            <p>Some imagery from <a href="https://unsplash.com/">unsplash.com</a> and <a href="https://coverr.co/">coverr.co</a></p>
+        </div>
+        <div id="socialmedia-icons-footer">
+            <a href="">
+                <img width="30" alt="Twitter" border="0" src="./images/my-icons-collection/svg/004-social-media-1.svg">
+            </a>
+            <a href="https://www.instagram.com/kakavand.fariba">
+                <img width="30" alt="Instagram" border="0" src="./images/my-icons-collection/svg/002-social-media-2.svg">
+            </a>
+            <a href="">
+                <img width="30" alt="Linkedin" border="0" src="./images/my-icons-collection/svg/001-social-media-3.svg">
+            </a>
+            <a href="https://www.facebook.com/fariba.kakavand.1">
+                <img width="30" alt="Facebook" border="0" src="./images/my-icons-collection/svg/005-social-media.svg">
+            </a>
+            <a href="">
+                <img width="30" alt="Youtube" border="0" src="./images/my-icons-collection/svg/003-youtube.svg">
+            </a>
+        </div>           
+            <!-- <p><strong>*Note:</strong> some images modified from the original source.</p> -->
+  </footer>
+</div><!-- end wrapper -->
+
+</body>
+</html>
